@@ -1,9 +1,5 @@
-Clase nodo, 5 ejecuciones, cada ordenador (uno 2 otro 3), distinto puerto.
-
-cuando se levanta se conocen las ip de las otras, luego levantaras uno mas tarde que no esta
-en la red. Cuando esto pase le mandara una petición a alguno que queramos y este le mandara las ip y puertos de todos. a la vez enviara a todos los demás la ip del nuevo. Cuando esto pase se crearan las tuberías entre todos ellos.
-
-Cuando esten conectados le dará una petición pidiéndole los bloques. Cuando pidas por consola una trasnaccion, cuando tengamos 3 o 4 uno de ellos escribira el comando /minar, lo que empezara a minar el bloque. (Se escribirán 3 bloques)
-
-
--.,m      cxz 
+Es un proyecto que simula una blockchain en red local, la clase MainUsuario1 crea 5 nodos base junto con un nodo lider, 
+La clase MainUsuario2 crea un nodo independiente, desde alli puedes crear transaciones que se actualizaran en todos los demas nodos.
+El maximo de transacciones es 4 y para poder seguir escribiendo transacciones tienes que minar, es decir hashear el bloque y ver si el hash empieza con 3 0
+En caso de fallo suma uno, repitiendo la operacion, cuando se encuentra un minado correcto envia el bloque junto con el hash y el numero encontrado, si los demas bloques 
+lo encuentra valido lo aceptan, si no lo rechazan
