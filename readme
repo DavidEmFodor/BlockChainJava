@@ -1,0 +1,9 @@
+Clase nodo, 5 ejecuciones, cada ordenador (uno 2 otro 3), distinto puerto.
+
+cuando se levanta se conocen las ip de las otras, luego levantaras uno mas tarde que no esta
+en la red. Cuando esto pase le mandara una petición a alguno que queramos y este le mandara las ip y puertos de todos. a la vez enviara a todos los demás la ip del nuevo. Cuando esto pase se crearan las tuberías entre todos ellos.
+
+Cuando esten conectados le dará una petición pidiéndole los bloques. Cuando pidas por consola una trasnaccion, cuando tengamos 3 o 4 uno de ellos escribira el comando /minar, lo que empezara a minar el bloque. (Se escribirán 3 bloques)
+
+
+-.,m      cxz 
